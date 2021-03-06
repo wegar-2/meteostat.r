@@ -1,0 +1,25 @@
+Package: okeanos.meteostat
+Type: Package
+Title: Get data from Meteostat API  into R
+Version: 0.0.1
+Author: Artur Wegrzyn
+Maintainer: Artur Wegrzyn <awegrzyn17@gmail.com>
+Description: This package contains set of functions for retrieval of the meteorological
+    data made available by Meteostat (cf. https://meteostat.net/en) using 
+    Meteostat's API (cf. https://dev.meteostat.net/api/).
+    Additionally, to facilitate getting started, this package contains 
+    table with the list of Meteostat's weather stations.
+    LEGAL DISCLAIMER: In line with the Meteostat's legal disclosures 
+    (cf. https://meteostat.net/en/legal) it is hereby acknowledged that 
+    Meteostat c/o Christian Lamprecht,  Plattenseestrasse 5, 69168 Wiesloch, Germany 
+    and the Meteostat's providers  (cf. https://meteostat.net/de/sources for exhaustive list) 
+    are the owners of the data that this packages retrieves and processes.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    jsonlite,
+    httr,
+    data.table,
+    R.utils,
+    utils
