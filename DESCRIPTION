@@ -8,7 +8,8 @@ Description: This package contains set of functions for retrieval of the meteoro
     data made available by Meteostat (cf. https://meteostat.net/en) using 
     Meteostat's API (cf. https://dev.meteostat.net/api/).
     Additionally, to facilitate getting started, this package contains 
-    table with the list of Meteostat's weather stations.
+    table with the list of Meteostat's weather stations (data set is called 
+    dtStationsDict - cf. documentation for more information).
     LEGAL DISCLAIMER: In line with the Meteostat's legal disclosures 
     (cf. https://meteostat.net/en/legal) it is hereby acknowledged that 
     Meteostat c/o Christian Lamprecht,  Plattenseestrasse 5, 69168 Wiesloch, Germany 
@@ -23,3 +24,6 @@ Imports:
     data.table,
     R.utils,
     utils
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.0

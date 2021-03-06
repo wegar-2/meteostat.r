@@ -15,7 +15,7 @@ bIsScalarOfType <- function(objIn, cTypeName) {
 cGetMeteostatStatusCodeMessage <- function(iStatusCode) {
 
   # 1. input validation --------------------------------------------------------
-  if (!bIsScalarOfType(objIn = iStatusCode, cTypeName = "character")) {
+  if (!bIsScalarOfType(objIn = iStatusCode, cTypeName = "integer")) {
     stop("Error inside cGetMeteostatStatusCodeMessage - parameter iStatusCode ",
          "is not an integer scalar! ")
   }
